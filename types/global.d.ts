@@ -26,4 +26,7 @@ declare namespace NodeJS {
   }
 }
 
-
+// 由 Taro 配置中的 defineConstants 注入的全局常量
+declare const ENV_CONST: {
+  baseURL: string;
+};
